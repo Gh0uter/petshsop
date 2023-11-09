@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header {
+    background-image: url("../img/fundo-topo.jpg");
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+    height: 84px;
+}
+
+nav {
+    /* border: 1px solid blue; */
+    text-align: center;
+    padding: 15px 0;
+}
+
+nav li {
+    display: inline;
+    background-image: url("../img/patinha-preta.png");
+    background-repeat: no-repeat;
+    background-position: center right;
+    padding-right: 27px;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+}
+
+nav a:hover {
+    color: #6dd432;
+}
+
+#itemContato {
+    background-image: none;
+    padding: 0;
+    margin: 0;
+}
+
+.fundoverde {
+    background-color: #bdff9c;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+    padding: 56px 0;
+}
+
+.flex-container .col {
+    width: 438px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.produto {
+    width: 235px;
+}
+
+.produto figure {
+    border: 1px solid #4c4c4c;
+    background-color: #fff;
+    margin: 0 0 15px 0;
+    padding: 0;
+    text-align: center;
+    height: 160px;
+    line-height: 160px;
+}
+
+.produto figure img {
+    vertical-align: middle;
+}
+
+.texto-centralizado {
+    text-align: center;
+}
+
+.btn-pata {
+    border: 1px solid #91e467;
+    background-color: #d2fbbd;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #000;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.Serviços-img {
+    width: 50%;
+}
+
+.Serviços-img figure img {
+    margin: 0%;
+}
+
+.Serviços {
+    left: 60px;
+    width: 50%;
+}
+
+.s-img img {
+    text-align: center;
+}
+
+form {
+    width: 350px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    border: 3px solid #6dd432;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+iframe {
+    width: 100%;
+}
